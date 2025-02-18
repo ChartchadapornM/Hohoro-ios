@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F600511C2D58F0360000B81D /* HohoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600511B2D58F0360000B81D /* HohoroApp.swift */; };
+		F600511E2D58F0360000B81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600511D2D58F0360000B81D /* ContentView.swift */; };
+		F60051202D58F0390000B81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F600511F2D58F0390000B81D /* Assets.xcassets */; };
+		F60051232D58F0390000B81D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60051222D58F0390000B81D /* Preview Assets.xcassets */; };
+		F60051252D58F0390000B81D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051242D58F0390000B81D /* Persistence.swift */; };
+		F60051282D58F0390000B81D /* Hohoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F60051262D58F0390000B81D /* Hohoro.xcdatamodeld */; };
+		F600512F2D58F3530000B81D /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600512E2D58F3530000B81D /* ThemeColors.swift */; };
+		F60051312D58F3880000B81D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051302D58F3880000B81D /* Colors.swift */; };
+		F60051342D58FD7F0000B81D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051332D58FD7F0000B81D /* SecondView.swift */; };
+		F60051362D58FE070000B81D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051352D58FE070000B81D /* ImagePicker.swift */; };
+		F60051382D5902770000B81D /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051372D5902770000B81D /* InformationView.swift */; };
+		F600513B2D59035F0000B81D /* Physiognomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600513A2D59035F0000B81D /* Physiognomy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F60051182D58F0360000B81D /* Hohoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hohoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F600511B2D58F0360000B81D /* HohoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HohoroApp.swift; sourceTree = "<group>"; };
+		F600511D2D58F0360000B81D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F600511F2D58F0390000B81D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F60051222D58F0390000B81D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F60051242D58F0390000B81D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F60051272D58F0390000B81D /* Hohoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hohoro.xcdatamodel; sourceTree = "<group>"; };
+		F600512E2D58F3530000B81D /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		F60051302D58F3880000B81D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F60051332D58FD7F0000B81D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F60051352D58FE070000B81D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F60051372D5902770000B81D /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		F600513A2D59035F0000B81D /* Physiognomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physiognomy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F60051152D58F0360000B81D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F600510F2D58F0360000B81D = {
+			isa = PBXGroup;
+			children = (
+				F600511A2D58F0360000B81D /* Hohoro */,
+				F60051192D58F0360000B81D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F60051192D58F0360000B81D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F60051182D58F0360000B81D /* Hohoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F600511A2D58F0360000B81D /* Hohoro */ = {
+			isa = PBXGroup;
+			children = (
+				F60051392D5903340000B81D /* Component */,
+				F60051322D58FD560000B81D /* View */,
+				F600511B2D58F0360000B81D /* HohoroApp.swift */,
+				F600511D2D58F0360000B81D /* ContentView.swift */,
+				F600511F2D58F0390000B81D /* Assets.xcassets */,
+				F60051242D58F0390000B81D /* Persistence.swift */,
+				F60051262D58F0390000B81D /* Hohoro.xcdatamodeld */,
+				F60051212D58F0390000B81D /* Preview Content */,
+				F600512E2D58F3530000B81D /* ThemeColors.swift */,
+				F60051302D58F3880000B81D /* Colors.swift */,
+				F60051352D58FE070000B81D /* ImagePicker.swift */,
+			);
+			path = Hohoro;
+			sourceTree = "<group>";
+		};
+		F60051212D58F0390000B81D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F60051222D58F0390000B81D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F60051322D58FD560000B81D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F60051332D58FD7F0000B81D /* SecondView.swift */,
+				F60051372D5902770000B81D /* InformationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F60051392D5903340000B81D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F600513A2D59035F0000B81D /* Physiognomy.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F60051172D58F0360000B81D /* Hohoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F600512B2D58F0390000B81D /* Build configuration list for PBXNativeTarget "Hohoro" */;
+			buildPhases = (
+				F60051142D58F0360000B81D /* Sources */,
+				F60051152D58F0360000B81D /* Frameworks */,
+				F60051162D58F0360000B81D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hohoro;
+			productName = Hohoro;
+			productReference = F60051182D58F0360000B81D /* Hohoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F60051102D58F0360000B81D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F60051172D58F0360000B81D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F60051132D58F0360000B81D /* Build configuration list for PBXProject "Hohoro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F600510F2D58F0360000B81D;
+			productRefGroup = F60051192D58F0360000B81D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F60051172D58F0360000B81D /* Hohoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F60051162D58F0360000B81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60051232D58F0390000B81D /* Preview Assets.xcassets in Resources */,
+				F60051202D58F0390000B81D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F60051142D58F0360000B81D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60051342D58FD7F0000B81D /* SecondView.swift in Sources */,
+				F600512F2D58F3530000B81D /* ThemeColors.swift in Sources */,
+				F60051312D58F3880000B81D /* Colors.swift in Sources */,
+				F60051252D58F0390000B81D /* Persistence.swift in Sources */,
+				F600511E2D58F0360000B81D /* ContentView.swift in Sources */,
+				F60051362D58FE070000B81D /* ImagePicker.swift in Sources */,
+				F600513B2D59035F0000B81D /* Physiognomy.swift in Sources */,
+				F60051382D5902770000B81D /* InformationView.swift in Sources */,
+				F60051282D58F0390000B81D /* Hohoro.xcdatamodeld in Sources */,
+				F600511C2D58F0360000B81D /* HohoroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F60051292D58F0390000B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F600512A2D58F0390000B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F600512C2D58F0390000B81D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hohoro/Preview Content\"";
+				DEVELOPMENT_TEAM = 45N2BYY8TY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chartchadaporn.Hohoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F600512D2D58F0390000B81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hohoro/Preview Content\"";
+				DEVELOPMENT_TEAM = 45N2BYY8TY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = chartchadaporn.Hohoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F60051132D58F0360000B81D /* Build configuration list for PBXProject "Hohoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60051292D58F0390000B81D /* Debug */,
+				F600512A2D58F0390000B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F600512B2D58F0390000B81D /* Build configuration list for PBXNativeTarget "Hohoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F600512C2D58F0390000B81D /* Debug */,
+				F600512D2D58F0390000B81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F60051262D58F0390000B81D /* Hohoro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F60051272D58F0390000B81D /* Hohoro.xcdatamodel */,
+			);
+			currentVersion = F60051272D58F0390000B81D /* Hohoro.xcdatamodel */;
+			path = Hohoro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F60051102D58F0360000B81D /* Project object */;
+}
