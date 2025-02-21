@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9B2EAE2D68694900077616 /* DestinyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B2EAD2D68694900077616 /* DestinyResultView.swift */; };
+		CC9B2EB02D68696200077616 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B2EAF2D68696200077616 /* ResultCard.swift */; };
+		CCBC2EDB2D68563E001DA6DB /* DestinyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC2EDA2D68563E001DA6DB /* DestinyView.swift */; };
+		CCBC2EDE2D685673001DA6DB /* DestinyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC2EDD2D685673001DA6DB /* DestinyViewModel.swift */; };
 		F600511C2D58F0360000B81D /* HohoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600511B2D58F0360000B81D /* HohoroApp.swift */; };
 		F600511E2D58F0360000B81D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600511D2D58F0360000B81D /* ContentView.swift */; };
 		F60051202D58F0390000B81D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F600511F2D58F0390000B81D /* Assets.xcassets */; };
@@ -15,13 +19,15 @@
 		F60051282D58F0390000B81D /* Hohoro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F60051262D58F0390000B81D /* Hohoro.xcdatamodeld */; };
 		F600512F2D58F3530000B81D /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600512E2D58F3530000B81D /* ThemeColors.swift */; };
 		F60051312D58F3880000B81D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051302D58F3880000B81D /* Colors.swift */; };
-		F60051342D58FD7F0000B81D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051332D58FD7F0000B81D /* SecondView.swift */; };
-		F60051362D58FE070000B81D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051352D58FE070000B81D /* ImagePicker.swift */; };
 		F60051382D5902770000B81D /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60051372D5902770000B81D /* InformationView.swift */; };
 		F600513B2D59035F0000B81D /* Physiognomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600513A2D59035F0000B81D /* Physiognomy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC9B2EAD2D68694900077616 /* DestinyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyResultView.swift; sourceTree = "<group>"; };
+		CC9B2EAF2D68696200077616 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		CCBC2EDA2D68563E001DA6DB /* DestinyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyView.swift; sourceTree = "<group>"; };
+		CCBC2EDD2D685673001DA6DB /* DestinyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyViewModel.swift; sourceTree = "<group>"; };
 		F60051182D58F0360000B81D /* Hohoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hohoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F600511B2D58F0360000B81D /* HohoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HohoroApp.swift; sourceTree = "<group>"; };
 		F600511D2D58F0360000B81D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,8 +37,6 @@
 		F60051272D58F0390000B81D /* Hohoro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hohoro.xcdatamodel; sourceTree = "<group>"; };
 		F600512E2D58F3530000B81D /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
 		F60051302D58F3880000B81D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		F60051332D58FD7F0000B81D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		F60051352D58FE070000B81D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		F60051372D5902770000B81D /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		F600513A2D59035F0000B81D /* Physiognomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physiognomy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCBC2EDC2D68566B001DA6DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCBC2EDD2D685673001DA6DB /* DestinyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F600510F2D58F0360000B81D = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +79,7 @@
 		F600511A2D58F0360000B81D /* Hohoro */ = {
 			isa = PBXGroup;
 			children = (
+				CCBC2EDC2D68566B001DA6DB /* ViewModel */,
 				F60051392D5903340000B81D /* Component */,
 				F60051322D58FD560000B81D /* View */,
 				F600511B2D58F0360000B81D /* HohoroApp.swift */,
@@ -77,7 +90,6 @@
 				F60051212D58F0390000B81D /* Preview Content */,
 				F600512E2D58F3530000B81D /* ThemeColors.swift */,
 				F60051302D58F3880000B81D /* Colors.swift */,
-				F60051352D58FE070000B81D /* ImagePicker.swift */,
 			);
 			path = Hohoro;
 			sourceTree = "<group>";
@@ -93,7 +105,8 @@
 		F60051322D58FD560000B81D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F60051332D58FD7F0000B81D /* SecondView.swift */,
+				CC9B2EAD2D68694900077616 /* DestinyResultView.swift */,
+				CCBC2EDA2D68563E001DA6DB /* DestinyView.swift */,
 				F60051372D5902770000B81D /* InformationView.swift */,
 			);
 			path = View;
@@ -102,6 +115,7 @@
 		F60051392D5903340000B81D /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CC9B2EAF2D68696200077616 /* ResultCard.swift */,
 				F600513A2D59035F0000B81D /* Physiognomy.swift */,
 			);
 			path = Component;
@@ -177,14 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60051342D58FD7F0000B81D /* SecondView.swift in Sources */,
 				F600512F2D58F3530000B81D /* ThemeColors.swift in Sources */,
+				CCBC2EDE2D685673001DA6DB /* DestinyViewModel.swift in Sources */,
+				CC9B2EAE2D68694900077616 /* DestinyResultView.swift in Sources */,
 				F60051312D58F3880000B81D /* Colors.swift in Sources */,
+				CC9B2EB02D68696200077616 /* ResultCard.swift in Sources */,
 				F60051252D58F0390000B81D /* Persistence.swift in Sources */,
 				F600511E2D58F0360000B81D /* ContentView.swift in Sources */,
-				F60051362D58FE070000B81D /* ImagePicker.swift in Sources */,
 				F600513B2D59035F0000B81D /* Physiognomy.swift in Sources */,
 				F60051382D5902770000B81D /* InformationView.swift in Sources */,
+				CCBC2EDB2D68563E001DA6DB /* DestinyView.swift in Sources */,
 				F60051282D58F0390000B81D /* Hohoro.xcdatamodeld in Sources */,
 				F600511C2D58F0360000B81D /* HohoroApp.swift in Sources */,
 			);
